@@ -10,10 +10,18 @@ function App() {
   return (
     <>
       <div className="app">
-        <Decrement counter={counter} setCounter={setCounter} />
-        <p className="counterstyle">{counter}</p>
-        <Increment counter={counter} setCounter={setCounter} />
+        <div className="app1">
+          <Decrement counter={counter} setCounter={setCounter} />
+          <p className="counterstyle">{counter}</p>
+          <Increment counter={counter} setCounter={setCounter} />
+        </div>
         <Reset counter={counter} setCounter={setCounter} />
+        <footer>
+          <p>
+            Made with <span>React</span> at <span>Le Reacteur</span> by{" "}
+            <span>Lucas</span>
+          </p>
+        </footer>
       </div>
     </>
   );
