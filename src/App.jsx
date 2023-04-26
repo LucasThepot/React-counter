@@ -12,7 +12,7 @@ function App() {
       <p>{counter}</p>
       <Increment counter={counter} setCounter={setCounter} />
       <Decrement counter={counter} setCounter={setCounter} />
-      <Reset counter={!counter} setCounter={setCounter} />
+      <Reset counter={counter} setCounter={setCounter} />
     </div>
   );
 }

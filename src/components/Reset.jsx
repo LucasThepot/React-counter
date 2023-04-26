@@ -1,8 +1,8 @@
-const Reset = () => {
+const Reset = (props) => {
   return (
     <button
       onClick={() => {
-        props.setCounter(!counter);
+        props.setCounter(0); //
       }}
     >
       Reset
