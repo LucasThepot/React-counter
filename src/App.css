@@ -10,21 +10,42 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .counterstyle {
   color: white;
   background-color: #5c48d3;
-  width: 40px;
-  height: 40px;
+  font-weight: 300;
+  font-size: 35px;
+  width: 80px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  margin: 0px 20px;
+}
+
+.decreincrestyle {
+  background-color: white;
+  border: 0px white solid;
+  font-size: 50px;
 }
 
 .resetstyle {
   color: white;
-  width: 40px;
-  height: 40px;
+  background-color: #5c48d3;
+  height: 25px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+.item {
+  width: 33.33%;
+  height: 100px;
+}
+
+.item:nth-child(4) {
+  width: 100%;
 }
